@@ -5,18 +5,13 @@
 In this project, we leverage Amazon Web Services to seamlessly transform MP3 audio files into text transcripts. The core components of the project include:
 
 - **Amazon S3:** The storage backbone where MP3 audio files are uploaded and trigger the automation process.
-- 
 - **AWS Lambda:** Serverless functions that are invoked by S3 events, initiating the transcription workflow.
--
 - **Amazon Transcribe:** The AI-powered service that performs audio-to-text transcription with impressive accuracy.
 
 ## Features
 
--
 - **Automated Transcription:** Audio files uploaded to the designated S3 bucket trigger the transcription workflow without manual intervention.
--
 - **Searchable Content:** The transcribed text can be indexed, allowing for efficient content searches within audio recordings.
--
 - **Accessibility Enhancement:** The project enhances accessibility by making audio content available in textual form.
 
 ## Getting Started
